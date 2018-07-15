@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.main-bg {
+  background-color: #e8e8e8;
+  height: 100vh; }
+
+.panels .panel-wrapper {
+  padding: 0; }
+.panels .panel:hover .panel-title {
+  background-color: #383838; }
+.panels .panel {
+  border: 2px solid #a8a9aa;
+  margin: 3px;
+  height: 150px;
+  width: 360px; }
+  .panels .panel .panel-title {
+    background-color: #5e5e5f;
+    color: #fff;
+    text-align: center;
+    margin: 0; }
+  .panels .panel .panel-content {
+    display: flex;
+    padding-top: 7px; }
+    .panels .panel .panel-content .triangle {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      margin: 0 -2px; }
+    .panels .panel .panel-content .green {
+      border-width: 0 5px 20px 5px;
+      border-color: transparent transparent #008000 transparent; }
+    .panels .panel .panel-content .red {
+      border-width: 20px 5px 0 5px;
+      border-color: #ff0000 transparent transparent transparent; }
+
+.buy {
+  height: 85px;
+  flex-grow: 1;
+  color: #648628;
+  margin: 0px 15px 0 10px;
+  text-align: right;
+  position: relative; }
+  .buy .outer {
+    right: 116px; }
+    .buy .outer .inner {
+      left: 40px; }
+  .buy .content-wrapper {
+    right: 0; }
+  .buy .content {
+    right: 0;
+    padding: 4px 6px 4px 0px;
+    border-color: #9a9695 #9a9695 #9a9695 transparent; }
+
+.buy:hover .inner, .buy:hover .content {
+  border-color: #48aacf;
+  background-color: #7fd13b;
+  color: #fff;
+  cursor: pointer; }
+.buy:hover .content {
+  border-color: #48aacf #48aacf #48aacf transparent; }
+
+.sell {
+  position: relative;
+  width: 155px;
+  height: 85px;
+  color: #c91219;
+  margin: 0px 10px 0 15px; }
+  .sell .outer {
+    left: 111px; }
+    .sell .outer .inner {
+      left: -19px; }
+  .sell .content {
+    padding: 4px 0 4px 6px;
+    left: 1px;
+    border-color: #9a9695 transparent #9a9695 #9a9695; }
+
+.sell:hover .inner, .sell:hover .content {
+  border-color: #48aacf;
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer; }
+.sell:hover .content {
+  border-color: #48aacf transparent #48aacf #48aacf; }
+
+.currency {
+  font-size: 11px;
+  font-weight: bold; }
+
+.first {
+  font-size: 16px; }
+
+.second {
+  font-size: 36px; }
+
+.third {
+  vertical-align: super;
+  font-size: 20px; }
+
+.inner {
+  transform: rotate(45deg);
+  border: 2px solid;
+  border-color: #9a9695;
+  background-color: #ffffff;
+  width: 61px;
+  height: 61px;
+  top: 22px;
+  position: relative;
+  border-radius: 15px; }
+
+.outer {
+  position: absolute;
+  top: -13px;
+  width: 70px;
+  height: 90px;
+  overflow: hidden; }
+
+.content-wrapper {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 119px;
+  height: 76px; }
+
+.content {
+  position: absolute;
+  top: 2px;
+  width: 121px;
+  height: 74px;
+  background-color: #fff;
+  border: 2px solid; }
+  .content .price {
+    margin-top: 5px; }
+
+/*# sourceMappingURL=App.css.map */
