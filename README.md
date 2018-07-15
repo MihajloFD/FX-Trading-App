@@ -9,6 +9,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
+  - [npm install](#npm-insatll)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
@@ -164,6 +165,10 @@ They will not be included in the production build so you can use them for things
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install all dependencies for app in the development mode.<br>
 
 ### `npm start`
 
